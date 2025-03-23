@@ -176,7 +176,7 @@ header .container {
 /* Hero Section */
 .hero {
     height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../images/hero-bg.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('logo.png');
     background-size: cover;
     background-position: center;
     display: flex;
@@ -192,7 +192,7 @@ header .container {
 }
 
 .hero-content h2 {
-    font-size: 3.5rem;
+    font-size: 2rem;
     margin-bottom: 20px;
     animation: fadeInDown 1s ease;
 }
