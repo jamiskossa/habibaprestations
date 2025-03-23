@@ -1,0 +1,730 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nos Services - Habiba Prestation</title>
+    <meta name="description" content="Découvrez notre gamme complète de services multi-prestations en Guinée Conakry. Habiba Prestation, votre partenaire de confiance.">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="services.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Habiba<span>Prestation</span></h1>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="services.html" class="active">Services</a></li>
+                    <li><a href="index.html#a-propos">À propos</a></li>
+                    <li><a href="index.html#temoignages">Témoignages</a></li>
+                    <li><a href="index.html#contact">Contact</a></li>
+                </ul>
+                <div class="burger">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Services Hero Section -->
+    <section class="services-hero">
+        <div class="container">
+            <div class="services-hero-content">
+                <h1>Nos Services</h1>
+                <p>Des solutions professionnelles adaptées à tous vos besoins</p>
+                <div class="services-breadcrumb">
+                    <a href="index.html">Accueil</a> <i class="fas fa-chevron-right"></i> <span>Services</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Overview -->
+    <section class="services-overview">
+        <div class="container">
+            <div class="section-header">
+                <h2>Nos Prestations</h2>
+                <p>Habiba Prestation vous offre une gamme complète de services de qualité</p>
+            </div>
+            
+            <div class="services-categories">
+                <button class="category-btn active" data-category="all">Tous</button>
+                <button class="category-btn" data-category="home">Domicile</button>
+                <button class="category-btn" data-category="business">Entreprise</button>
+                <button class="category-btn" data-category="technical">Technique</button>
+                <button class="category-btn" data-category="delivery">Livraison</button>
+            </div>
+
+            <div class="services-grid">
+                <!-- Service 1 -->
+                <div class="service-item" data-category="home technical">
+                    <div class="service-image">
+                        <img src="images/services/electrical.jpg" alt="Services électriques">
+                        <div class="service-overlay">
+                            <a href="#service-electrical" class="btn-details">Détails</a>
+                        </div>
+                    </div>
+                    <div class="service-info">
+                        <div class="service-icon">
+                            <i class="fas fa-bolt"></i>
+                        </div>
+                        <h3>Services Électriques</h3>
+                        <p>Installation, réparation et maintenance de systèmes électriques résidentiels et commerciaux.</p>
+                    </div>
+                </div>
+
+                <!-- Service 2 -->
+                <div class="service-item" data-category="home technical">
+                    <div class="service-image">
+                        <img src="images/services/plumbing.jpg" alt="Services de plomberie">
+                        <div class="service-overlay">
+                            <a href="#service-plumbing" class="btn-details">Détails</a>
+                        </div>
+                    </div>
+                    <div class="service-info">
+                        <div class="service-icon">
+                            <i class="fas fa-faucet"></i>
+                        </div>
+                        <h3>Plomberie</h3>
+                        <p>Réparation de fuites, installation de systèmes sanitaires et débouchage de canalisations.</p>
+                    </div>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="service-item" data-category="home business">
+                    <div class="service-image">
+                        <img src="images/services/painting.jpg" alt="Services de peinture">
+                        <div class="service-overlay">
+                            <a href="#service-painting" class="btn-details">Détails</a>
+                        </div>
+                    </div>
+                    <div class="service-info">
+                        <div class="service-icon">
+                            <i class="fas fa-paint-roller"></i>
+                        </div>
+                        <h3>Peinture</h3>
+                        <p>Services de peinture intérieure et extérieure pour résidences et locaux commerciaux.</p>
+                    </div>
+                </div>
+
+                <!-- Service 4 -->
+                <div class="service-item" data-category="home business">
+                    <div class="service-image">
+                        <img src="images/services/cleaning.jpg" alt="Services de nettoyage">
+                        <div class="service-overlay">
+                            <a href="#service-cleaning" class="btn-details">Détails</a>
+                        </div>
+                    </div>
+                    <div class="service-info">
+                        <div class="service-icon">
+                            <i class="fas fa-broom"></i>
+                        </div>
+                        <h3>Nettoyage</h3>
+                        <p>Nettoyage professionnel de maisons, bureaux et espaces commerciaux.</p>
+                    </div>
+                </div>
+
+                <!-- Service 5 -->
+                <div class="service-item" data-category="technical">
+                    <div class="service-image">
+                        <img src="images/services/appliance-repair.jpg" alt="Réparation d'appareils">
+                        <div class="service-overlay">
+                            <a href="#service-appliance" class="btn-details">Détails</a>
+                        </div>
+                    </div>
+                    <div class="service-info">
+                        <div class="service-icon">
+                            <i class="fas fa-tools"></i>
+                        </div>
+                        <h3>Réparation d'Appareils</h3>
+                        <p>Réparation d'appareils électroménagers et électroniques de toutes marques.</p>
+                    </div>
+                </div>
+
+                <!-- Service 6 -->
+                <div class="service-item" data-category="delivery">
+                    <div class="service-image">
+                        <img src="images/services/delivery.jpg" alt="Services de livraison">
+                        <div class="service-overlay">
+                            <a href="#service-delivery" class="btn-details">Détails</a>
+                        </div>
+                    </div>
+                    <div class="service-info">
+                        <div class="service-icon">
+                            <i class="fas fa-truck"></i>
+                        </div>
+                        <h3>Livraison</h3>
+                        <p>Service de livraison rapide et fiable dans toute la région de Conakry.</p>
+                    </div>
+                </div>
+
+                <!-- Service 7 -->
+                <div class="service-item" data-category="home business">
+                    <div class="service-image">
+                        <img src="images/services/gardening.jpg" alt="Jardinage et aménagement paysager">
+                        <div class="service-overlay">
+                            <a href="#service-gardening" class="btn-details">Détails</a>
+                        </div>
+                    </div>
+                    <div class="service-info">
+                        <div class="service-icon">
+                            <i class="fas fa-leaf"></i>
+                        </div>
+                        <h3>Jardinage</h3>
+                        <p>Entretien de jardins, aménagement paysager et taille de haies et arbustes.</p>
+                    </div>
+                </div>
+
+                <!-- Service 8 -->
+                <div class="service-item" data-category="home business technical">
+                    <div class="service-image">
+                        <img src="images/services/security.jpg" alt="Systèmes de sécurité">
+                        <div class="service-overlay">
+                            <a href="#service-security" class="btn-details">Détails</a>
+                        </div>
+                    </div>
+                    <div class="service-info">
+                        <div class="service-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <h3>Systèmes de Sécurité</h3>
+                        <p>Installation et maintenance de systèmes d'alarme et de vidéosurveillance.</p>
+                    </div>
+                </div>
+
+                <!-- Service 9 -->
+                <div class="service-item" data-category="business">
+                    <div class="service-image">
+                        <img src="images/services/office-maintenance.jpg" alt="Maintenance de bureaux">
+                        <div class="service-overlay">
+                            <a href="#service-office" class="btn-details">Détails</a>
+                        </div>
+                    </div>
+                    <div class="service-info">
+                        <div class="service-icon">
+                            <i class="fas fa-building"></i>
+                        </div>
+                        <h3>Maintenance de Bureaux</h3>
+                        <p>Services complets de maintenance pour espaces de travail et immeubles de bureaux.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service Details Sections -->
+    <section class="service-details">
+        <div class="container">
+            <!-- Electrical Service Details -->
+            <div id="service-electrical" class="detail-item">
+                <div class="detail-header">
+                    <h2>Services Électriques</h2>
+                    <div class="detail-icon"><i class="fas fa-bolt"></i></div>
+                </div>
+                <div class="detail-content">
+                    <div class="detail-image">
+                        <img src="images/services/electrical-detail.jpg" alt="Services électriques détaillés">
+                    </div>
+                    <div class="detail-text">
+                        <h3>Solutions électriques complètes</h3>
+                        <p>Chez Habiba Prestation, nous offrons une gamme complète de services électriques pour répondre à tous vos besoins résidentiels et commerciaux. Notre équipe de techniciens certifiés garantit un travail de qualité, sécuritaire et conforme aux normes en vigueur.</p>
+                        
+                        <h4>Nos services électriques incluent :</h4>
+                        <ul class="service-list">
+                            <li><i class="fas fa-check"></i> Installation électrique pour nouvelles constructions</li>
+                            <li><i class="fas fa-check"></i> Rénovation et mise aux normes d'installations existantes</li>
+                            <li><i class="fas fa-check"></i> Dépannage et réparation de pannes électriques</li>
+                            <li><i class="fas fa-check"></i> Installation de systèmes d'éclairage intérieur et extérieur</li>
+                            <li><i class="fas fa-check"></i> Mise en place de systèmes d'alimentation de secours</li>
+                            <li><i class="fas fa-check"></i> Installation de prises et interrupteurs</li>
+                            <li><i class="fas fa-check"></i> Diagnostic et résolution de problèmes électriques</li>
+                        </ul>
+                        
+                        <div class="detail-cta">
+                            <a href="index.html#contact" class="btn btn-primary">Demander un devis</a>
+                            <a href="tel:+22462123456" class="btn btn-secondary"><i class="fas fa-phone"></i> +224 62 12 34 56</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Plumbing Service Details -->
+            <div id="service-plumbing" class="detail-item">
+                <div class="detail-header">
+                    <h2>Services de Plomberie</h2>
+                    <div class="detail-icon"><i class="fas fa-faucet"></i></div>
+                </div>
+                <div class="detail-content">
+                    <div class="detail-image">
+                        <img src="images/services/plumbing-detail.jpg" alt="Services de plomberie détaillés">
+                    </div>
+                    <div class="detail-text">
+                        <h3>Solutions de plomberie professionnelles</h3>
+                        <p>Nos plombiers qualifiés sont équipés pour gérer tous vos problèmes de plomberie, des plus simples aux plus complexes. Nous intervenons rapidement pour minimiser les dégâts et restaurer le bon fonctionnement de vos installations.</p>
+                        
+                        <h4>Nos services de plomberie incluent :</h4>
+                        <ul class="service-list">
+                            <li><i class="fas fa-check"></i> Réparation de fuites et de tuyaux endommagés</li>
+                            <li><i class="fas fa-check"></i> Débouchage de canalisations et d'égouts</li>
+                            <li><i class="fas fa-check"></i> Installation et réparation de robinets et éviers</li>
+                            <li><i class="fas fa-check"></i> Installation et maintenance de chauffe-eau</li>
+                            <li><i class="fas fa-check"></i> Réparation et remplacement de toilettes</li>
+                            <li><i class="fas fa-check"></i> Installation de systèmes de filtration d'eau</li>
+                            <li><i class="fas fa-check"></i> Détection et réparation de fuites cachées</li>
+                        </ul>
+                        
+                        <div class="detail-cta">
+                            <a href="index.html#contact" class="btn btn-primary">Demander un devis</a>
+                            <a href="tel:+22462123456" class="btn btn-secondary"><i class="fas fa-phone"></i> +224 62 12 34 56</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Painting Service Details -->
+            <div id="service-painting" class="detail-item">
+                <div class="detail-header">
+                    <h2>Services de Peinture</h2>
+                    <div class="detail-icon"><i class="fas fa-paint-roller"></i></div>
+                </div>
+                <div class="detail-content">
+                    <div class="detail-image">
+                        <img src="images/services/painting-detail.jpg" alt="Services de peinture détaillés">
+                    </div>
+                    <div class="detail-text">
+                        <h3>Transformez votre espace avec nos services de peinture</h3>
+                        <p>Nos peintres professionnels apportent couleur et vie à vos espaces intérieurs et extérieurs. Nous utilisons des peintures de qualité supérieure pour garantir une finition durable et esthétique qui résiste à l'épreuve du temps.</p>
+                        
+                        <h4>Nos services de peinture incluent :</h4>
+                        <ul class="service-list">
+                            <li><i class="fas fa-check"></i> Peinture intérieure pour résidences et commerces</li>
+                            <li><i class="fas fa-check"></i> Peinture extérieure et façades</li>
+                            <li><i class="fas fa-check"></i> Préparation des surfaces (ponçage, rebouchage, apprêt)</li>
+                            <li><i class="fas fa-check"></i> Application de textures et finitions décoratives</li>
+                            <li><i class="fas fa-check"></i> Peinture de meubles et éléments architecturaux</li>
+                            <li><i class="fas fa-check"></i> Conseils en décoration et choix de couleurs</li>
+                            <li><i class="fas fa-check"></i> Traitement anti-humidité et anti-moisissure</li>
+                        </ul>
+                        
+                        <div class="detail-cta">
+                            <a href="index.html#contact" class="btn btn-primary">Demander un devis</a>
+                            <a href="tel:+22462123456" class="btn btn-secondary"><i class="fas fa-phone"></i> +224 62 12 34 56</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Cleaning Service Details -->
+            <div id="service-cleaning" class="detail-item">
+                <div class="detail-header">
+                    <h2>Services de Nettoyage</h2>
+                    <div class="detail-icon"><i class="fas fa-broom"></i></div>
+                </div>
+                <div class="detail-content">
+                    <div class="detail-image">
+                        <img src="images/services/cleaning-detail.jpg" alt="Services de nettoyage détaillés">
+                    </div>
+                    <div class="detail-text">
+                        <h3>Un environnement propre et sain</h3>
+                        <p>Nos services de nettoyage professionnel garantissent un environnement impeccable pour votre maison ou votre entreprise. Nous utilisons des équipements modernes et des produits écologiques pour un nettoyage efficace et respectueux de l'environnement.</p>
+                        
+                        <h4>Nos services de nettoyage incluent :</h4>
+                        <ul class="service-list">
+                            <li><i class="fas fa-check"></i> Nettoyage régulier ou ponctuel de résidences</li>
+                            <li><i class="fas fa-check"></i> Entretien de bureaux et espaces commerciaux</li>
+                            <li><i class="fas fa-check"></i> Nettoyage de fin de chantier</li>
+                            <li><i class="fas fa-check"></i> Lavage de vitres et façades</li>
+                            <li><i class="fas fa-check"></i> Nettoyage en profondeur de cuisines et salles de bains</li>
+                            <li><i class="fas fa-check"></i> Nettoyage et désinfection de surfaces</li>
+                            <li><i class="fas fa-check"></i> Nettoyage de moquettes et tissus d'ameublement</li>
+                        </ul>
+                        
+                        <div class="detail-cta">
+                            <a href="index.html#contact" class="btn btn-primary">Demander un devis</a>
+                            <a href="tel:+22462123456" class="btn btn-secondary"><i class="fas fa-phone"></i> +224 62 12 34 56</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Appliance Repair Service Details -->
+            <div id="service-appliance" class="detail-item">
+                <div class="detail-header">
+                    <h2>Réparation d'Appareils</h2>
+                    <div class="detail-icon"><i class="fas fa-tools"></i></div>
+                </div>
+                <div class="detail-content">
+                    <div class="detail-image">
+                        <img src="images/services/appliance-detail.jpg" alt="Réparation d'appareils détaillée">
+                    </div>
+                    <div class="detail-text">
+                        <h3>Donnez une seconde vie à vos appareils</h3>
+                        <p>Nos techniciens spécialisés diagnostiquent et réparent efficacement vos appareils électroménagers et électroniques. Nous intervenons sur toutes les marques et modèles pour prolonger la durée de vie de vos équipements.</p>
+                        
+                        <h4>Nos services de réparation incluent :</h4>
+                        <ul class="service-list">
+                            <li><i class="fas fa-check"></i> Réparation de réfrigérateurs et congélateurs</li>
+                            <li><i class="fas fa-check"></i> Réparation de lave-linge et sèche-linge</li>
+                            <li><i class="fas fa-check"></i> Réparation de climatiseurs et ventilateurs</li>
+                            <li><i class="fas fa-check"></i> Réparation de fours et cuisinières</li>
+                            <li><i class="fas fa-check"></i> Réparation de téléviseurs et équipements audio</li>
+                            <li><i class="fas fa-check"></i> Réparation d'ordinateurs et périphériques</li>
+                            <li><i class="fas fa-check"></i> Maintenance préventive d'appareils</li>
+                        </ul>
+                        
+                        <div class="detail-cta">
+                            <a href="index.html#contact" class="btn btn-primary">Demander un devis</a>
+                            <a href="tel:+22462123456" class="btn btn-secondary"><i class="fas fa-phone"></i> +224 62 12 34 56</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Delivery Service Details -->
+            <div id="service-delivery" class="detail-item">
+                <div class="detail-header">
+                    <h2>Services de Livraison</h2>
+                    <div class="detail-icon"><i class="fas fa-truck"></i></div>
+                </div>
+                <div class="detail-content">
+                    <div class="detail-image">
+                        <img src="images/services/delivery-detail.jpg" alt="Services de livraison détaillés">
+                    </div>
+                    <div class="detail-text">
+                        <h3>Livraison rapide et fiable</h3>
+                        <p>Notre service de livraison assure le transport sécurisé de vos colis, documents et marchandises dans toute la région de Conakry. Nous garantissons ponctualité et professionnalisme pour chaque livraison.</p>
+                        
+                        <h4>Nos services de livraison incluent :</h4>
+                        <ul class="service-list">
+                            <li><i class="fas fa-check"></i> Livraison express en ville (moins de 3 heures)</li>
+                            <li><i class="fas fa-check"></i> Livraison standard (même jour ou jour suivant)</li>
+                            <li><i class="fas fa-check"></i> Transport de documents et colis</li>
+                            <li><i class="fas fa-check"></i> Livraison de courses et produits alimentaires</li>
+                            <li><i class="fas fa-check"></i> Transport de meubles et objets volumineux</li>
+                            <li><i class="fas fa-check"></i> Services de coursier pour entreprises</li>
+                            <li><i class="fas fa-check"></i> Suivi en temps réel de vos livraisons</li>
+                        </ul>
+                        
+                        <div class="detail-cta">
+                            <a href="index.html#contact" class="btn btn-primary">Demander un devis</a>
+                            <a href="tel:+22462123456" class="btn btn-secondary"><i class="fas fa-phone"></i> +224 62 12 34 56</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Gardening Service Details -->
+            <div id="service-gardening" class="detail-item">
+                <div class="detail-header">
+                    <h2>Services de Jardinage</h2>
+                    <div class="detail-icon"><i class="fas fa-leaf"></i></div>
+                </div>
+                <div class="detail-content">
+                    <div class="detail-image">
+                        <img src="images/services/gardening-detail.jpg" alt="Services de jardinage détaillés">
+                    </div>
+                    <div class="detail-text">
+                        <h3>Embellissez vos espaces verts</h3>
+                        <p>Nos jardiniers expérimentés transforment et entretiennent vos espaces extérieurs pour créer un environnement verdoyant et harmonieux. Nous prenons soin de vos plantes et aménagements paysagers avec expertise et passion.</p>
+                        
+                        <h4>Nos services de jardinage incluent :</h4>
+                        <ul class="service-list">
+                            <li><i class="fas fa-check"></i> Tonte de pelouse et désherbage</li>
+                            <li><i class="fas fa-check"></i> Taille de haies, arbustes et arbres</li>
+                            <li><i class="fas fa-check"></i> Création et entretien de massifs floraux</li>
+                            <li><i class="fas fa-check"></i> Installation de systèmes d'irrigation</li>
+                            <li><i class="fas fa-check"></i> Aménagement paysager et création de jardins</li>
+                            <li><i class="fas fa-check"></i> Traitement phytosanitaire des plantes</li>
+                            <li><i class="fas fa-check"></i> Nettoyage et entretien d'espaces extérieurs</li>
+                        </ul>
+                        
+                        <div class="detail-cta">
+                            <a href="index.html#contact" class="btn btn-primary">Demander un devis</a>
+                            <a href="tel:+22462123456" class="btn btn-secondary"><i class="fas fa-phone"></i> +224 62 12 34 56</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Security Service Details -->
+            <div id="service-security" class="detail-item">
+                <div class="detail-header">
+                    <h2>Systèmes de Sécurité</h2>
+                    <div class="detail-icon"><i class="fas fa-shield-alt"></i></div>
+                </div>
+                <div class="detail-content">
+                    <div class="detail-image">
+                        <img src="images/services/security-detail.jpg" alt="Systèmes de sécurité détaillés">
+                    </div>
+                    <div class="detail-text">
+                        <h3>Protégez ce qui compte le plus</h3>
+                        <p>Nos solutions de sécurité sur mesure protègent votre domicile ou votre entreprise contre les intrusions et autres risques. Nous installons des systèmes fiables et modernes pour votre tranquillité d'esprit.</p>
+                        
+                        <h4>Nos services de sécurité incluent :</h4>
+                        <ul class="service-list">
+                            <li><i class="fas fa-check"></i> Installation de systèmes d'alarme</li>
+                            <li><i class="fas fa-check"></i> Mise en place de caméras de surveillance</li>
+                            <li><i class="fas fa-check"></i> Installation de détecteurs de mouvement</li>
+                            <li><i class="fas fa-check"></i> Systèmes de contrôle d'accès</li>
+                            <li><i class="fas fa-check"></i> Serrurerie et renforcement de portes</li>
+                            <li><i class="fas fa-check"></i> Éclairage de sécurité</li>
+                            <li><i class="fas fa-check"></i> Maintenance et dépannage de systèmes existants</li>
+                        </ul>
+                        
+                        <div class="detail-cta">
+                            <a href="index.html#contact" class="btn btn-primary">Demander un devis</a>
+                            <a href="tel:+22462123456" class="btn btn-secondary"><i class="fas fa-phone"></i> +224 62 12 34 56</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Office Maintenance Service Details -->
+            <div id="service-office" class="detail-item">
+                <div class="detail-header">
+                    <h2>Maintenance de Bureaux</h2>
+                    <div class="detail-icon"><i class="fas fa-building"></i></div>
+                </div>
+                <div class="detail-content">
+                    <div class="detail-image">
+                        <img src="images/services/office-detail.jpg" alt="Maintenance de bureaux détaillée">
+                    </div>
+                    <div class="detail-text">
+                        <h3>Un environnement de travail optimal</h3>
+                        <p>Nos services de maintenance pour bureaux et espaces commerciaux garantissent un environnement de travail fonctionnel, sécuritaire et agréable. Nous prenons en charge tous les aspects de l'entretien de vos locaux professionnels.</p>
+                        
+                        <h4>Nos services de maintenance de bureaux incluent :</h4>
+                        <ul class="service-list">
+                            <li><i class="fas fa-check"></i> Entretien régulier des espaces de travail</li>
+                            <li><i class="fas fa-check"></i> Maintenance des systèmes électriques et d'éclairage</li>
+                            <li><i class="fas fa-check"></i> Réparations et petits travaux</li>
+                            <li><i class="fas fa-check"></i> Maintenance des systèmes de climatisation</li>
+                            <li><i class="fas fa-check"></i> Gestion des espaces verts d'entreprise</li>
+                            <li><i class="fas fa-check"></i> Entretien des sanitaires et cuisines</li>
+                            <li><i class="fas fa-check"></i> Contrats de maintenance préventive</li>
+                        </ul>
+                        
+                        <div class="detail-cta">
+                            <a href="index.html#contact" class="btn btn-primary">Demander un devis</a>
+                            <a href="tel:+22462123456" class="btn btn-secondary"><i class="fas fa-phone"></i> +224 62 12 34 56</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="why-choose-us">
+        <div class="container">
+            <div class="section-header">
+                <h2>Pourquoi Nous Choisir</h2>
+                <p>Des raisons convaincantes de faire confiance à Habiba Prestation</p>
+            </div>
+
+            <div class="features-grid">
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <i class="fas fa-medal"></i>
+                    </div>
+                    <h3>Qualité Garantie</h3>
+                    <p>Nous nous engageons à fournir des services de la plus haute qualité, avec une garantie sur tous nos travaux.</p>
+                </div>
+
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h3>Service Rapide</h3>
+                    <p>Notre équipe réactive intervient rapidement pour répondre à vos besoins urgents et respecter les délais.</p>
+                </div>
+
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <i class="fas fa-user-tie"></i>
+                    </div>
+                    <h3>Professionnalisme</h3>
+                    <p>Nos techniciens qualifiés et expérimentés travaillent avec rigueur et respect de votre propriété.</p>
+                </div>
+
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <i class="fas fa-hand-holding-usd"></i>
+                    </div>
+                    <h3>Prix Compétitifs</h3>
+                    <p>Nous offrons des tarifs transparents et compétitifs, avec des devis détaillés sans frais cachés.</p>
+                </div>
+
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <h3>Équipement Moderne</h3>
+                    <p>Nous utilisons des outils et technologies de pointe pour garantir des résultats optimaux.</p>
+                </div>
+
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <i class="fas fa-headset"></i>
+                    </div>
+                    <h3>Support Client</h3>
+                    <p>Notre service client attentif est disponible pour répondre à toutes vos questions et préoccupations.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Prêt à améliorer votre quotidien ?</h2>
+                <p>Contactez-nous dès aujourd'hui pour discuter de vos besoins et obtenir un devis personnalisé.</p>
+                <div class="cta-buttons">
+                    <a href="index.html#contact" class="btn btn-primary">Demander un devis</a>
+                    <a href="tel:+22462123456" class="btn btn-secondary"><i class="fas fa-phone"></i> Nous appeler</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Questions Fréquentes</h2>
+                <p>Tout ce que vous devez savoir sur nos services</p>
+            </div>
+
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Comment puis-je prendre rendez-vous pour un service ?</h3>
+                        <span class="faq-toggle"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Vous pouvez prendre rendez-vous en nous appelant au +224 62 12 34 56, en remplissant notre formulaire de contact en ligne, ou en nous envoyant un email à contact@habibaprestation.com. Notre équipe vous répondra dans les plus brefs délais pour confirmer votre rendez-vous.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Quelles sont vos zones d'intervention ?</h3>
+                        <span class="faq-toggle"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Nous intervenons principalement dans la région de Conakry et ses environs. Pour les zones plus éloignées, veuillez nous contacter pour vérifier notre disponibilité et les éventuels frais de déplacement supplémentaires.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Comment sont calculés vos tarifs ?</h3>
+                        <span class="faq-toggle"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Nos tarifs sont calculés en fonction du type de service, de la complexité du travail, des matériaux nécessaires et du temps estimé pour la réalisation. Nous vous fournissons toujours un devis détaillé avant de commencer les travaux, sans engagement de votre part.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Proposez-vous des contrats de maintenance régulière ?</h3>
+                        <span class="faq-toggle"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Oui, nous proposons des contrats de maintenance régulière pour les particuliers et les entreprises. Ces contrats peuvent être personnalisés selon vos besoins spécifiques et vous permettent de bénéficier de tarifs préférentiels et d'une priorité d'intervention.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Vos services sont-ils garantis ?</h3>
+                        <span class="faq-toggle"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Absolument ! Tous nos travaux sont garantis. La durée de la garantie varie selon le type de service, mais nous nous engageons à intervenir gratuitement en cas de problème lié à notre prestation dans la période de garantie.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Quels modes de paiement acceptez-vous ?</h3>
+                        <span class="faq-toggle"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Nous acceptons les paiements en espèces, par virement bancaire, par mobile money (Orange Money, MTN Mobile Money) et par carte bancaire pour certains services. Des facilités de paiement peuvent être proposées pour les projets importants.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>Habiba<span>Prestation</span></h2>
+                    <p>Votre partenaire de confiance pour tous vos besoins de services en Guinée Conakry.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-links">
+                    <h3>Liens Rapides</h3>
+                    <ul>
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="index.html#a-propos">À propos</a></li>
+                        <li><a href="index.html#temoignages">Témoignages</a></li>
+                        <li><a href="index.html#contact">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-services">
+                    <h3>Nos Services</h3>
+                    <ul>
+                        <li>Services Électriques</li>
+                        <li>Plomberie</li>
+                        <li>Peinture</li>
+                        <li>Nettoyage</li>
+                        <li>Réparation d'Appareils</li>
+                        <li>Livraison</li>
+                    </ul>
+                </div>
+
+                <div class="footer-newsletter">
+                    <h3>Newsletter</h3>
+                    <p>Inscrivez-vous pour recevoir nos offres spéciales et actualités.</p>
+                    <form id="newsletterForm">
+                        <input type="email" placeholder="Votre email" required>
+                        <button type="submit" class="btn">S'inscrire</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2023 Habiba Prestation. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+    <script src="services.js"></script>
+</body>
+</html>
