@@ -4,7 +4,7 @@
 .services-hero {
     height: 50vh;
     min-height: 400px;
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/services/services-hero.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('logo.png');
     background-size: cover;
     background-position: center;
     display: flex;
